@@ -22,7 +22,7 @@ body {
 
 .card {
     min-height: 75vh;
-    width: 35rem;
+    width: 32rem;
     /* background: lightcoral; */
     box-shadow: 0px 20px 20px rgb(0,0,0,0.2), 0px 0px 50px  rgb(0,0,0,0.2);
     border-radius: 30px;
