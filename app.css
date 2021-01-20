@@ -6,5 +6,102 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container {
+    /* background: lightcyan; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    min-height: 75vh;
+    width: 35rem;
+    /* background: lightcoral; */
+    box-shadow: 0px 20px 20px rgb(0,0,0,0.2), 0px 0px 50px  rgb(0,0,0,0.2);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+
+}
+
+.product {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product img {
+    width: 20rem;
+    z-index: 2;
+}
+
+.circle {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient( to right, rgb(29, 118, 153, 0.75), rgba(226, 223, 40, 0.75) );
+    border-radius: 50%;
+}
+
+.info h1 {
+    font-size: 2rem;
+}
+
+.info h3 {
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attributes button {
+    padding: 0.5rem 2rem;
+    border: none;
+    background: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+
+.attributes button:hover {
+    background: rgba(226, 223, 40, 0.75);
+    color: white;
+}
+
+.attributes .active {
+    background:  rgb(29, 118, 153, 0.75);
+    color: white;
+}
+
+.buy {
+    margin-top: 3rem;
+}
+
+.buy button {
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.7rem 0rem;
+    background: rgb(29, 118, 153, 0.75);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
